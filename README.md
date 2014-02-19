@@ -7,7 +7,7 @@ Localization Tool for iOS
 ###Installation:
 Simply download the file either to the project you want to localize, or anywhere you can run the script from.
 
-
+If you want to use it system wide place it in ```/usr/local/bin``` and make sure it's executable: ```chmod+x localize.py```
 ###Usage:
 ```
 usage: ./localize.py [-h] [-v] {generate,replace} ...
