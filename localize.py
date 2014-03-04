@@ -199,7 +199,6 @@ parser.add_argument('-v', '--verbose', action='store_true', help='increase outpu
 
 subparsers = parser.add_subparsers(title='subcommands',
                                    description='valid subcommands',
-                                   help='additional help',
                                    dest='command')
 generate_parser = subparsers.add_parser('generate', help='Used to generate localization files optionally combining them with previous translations')
 generate_parser.add_argument('-n', '--new', action='store_true', help='Creates brand new Localization file from source code')
